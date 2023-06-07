@@ -1,14 +1,13 @@
 .button-connect {
-    display: inline-block;
-    background-color: #4CAF50;
-    color: #fff;
-    text-align: center;
-    padding: 10px ;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .button-connect:hover {
-    background-color: #45a049;
-  }
-  
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-connect:hover {
+  background-color: #45a049;
+}

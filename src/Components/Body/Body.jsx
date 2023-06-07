@@ -92,14 +92,13 @@ function Body({ state, account }) {
         />
         <button type="submit">Stake</button>
       </form>
-        <button onClick={unstake}>Unstake</button>
-        <p>After Unstaking please wait for 1 minute to get rewards</p>
-        <p>The Reward you will get approx 1 token every minute ie 60 seconds</p>
+      <p>After staking please wait for 1 minute to Unstake</p>
+      <button onClick={unstake}>Unstake</button>
 
-        <button onClick={claim}>Claim</button>
+      <p>The Reward you will get approx 1 token every minute ie 60 seconds</p>
 
+      <button onClick={claim}>Claim</button>
     </div>
-    
   );
 }
 
