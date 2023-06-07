@@ -1,0 +1,27 @@
+/* CSS for navbar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    text-align: left;  /* Align content to the right */
+  }
+  
+  ul.navbar li {
+    display: inline-block;  /* Display list items horizontally */
+    margin-right: 20px;  /* Add padding between list items */
+  }
+  
+  ul.navbar li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.navbar li a:hover {
+    background-color: #ddd;
+  }
+  
